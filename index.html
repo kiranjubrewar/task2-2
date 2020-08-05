@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>D</title>
+</head>
+<body>
+    <div class="container-fluid" id="section1">
+        <nav class="navbar navbar-expand-md">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#"><img src="img/1.jpg"></a>
+          
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon" style="background-color: rgb(255, 72, 0);"></span>
+            </button>
+          
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="color:  rgb(255, 72, 0); !important; ">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <div class="main">
+              <div class="info">
+                  <p class="head-para">About <span>____</span></p>
+                  <h2>Darlene Cox</h2>
+                  <p>Darlene is a designer based in New York. With over 8 years of experience in designing for web and user interface desigs. She also enjoys working on graphic design and illustration.</p>
+                  <a href="#">Work Enquiry</a>
+              </div>
+              <div class="image">
+                <img src="img/2.png" alt="">
+              </div>
+          </div>
+    </div>
+
+    <div class="container-fluid" id="section2">
+        <div class="main2">
+            <p class="head-para">Portfolio <span>____</span></p>
+            <h2>Featured</h2>
+            <div class="gallery">
+                    <div class="card">
+                        <img src="img/3.PNG">
+                    </div>
+
+                    <div class="card">
+                        <img src="img/4.PNG">
+                        <img src="img/6.PNG">
+                    </div>
+
+                    <div class="card">
+                        <img src="img/5.PNG" alt="">
+                        <img src="img/7.PNG" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="section3">
+        <div class="main3">
+            <p class="head-para">Blog <span>____</span></p>
+            <h2>Recent Articles</h2>
+            <p style="color: gray; font-size: x-large;">05-08-2020</p>
+            <div class="gallery3">
+                <div class="info3">
+                    <h1>7 Principles of Effective Icon Design</h1>
+                    <p>Before approaching design, there are some guidelines and principles that are worth studying. If you want to create effective icon designs, then you should take a holistic approach to issues such as audience, size, simplicity, lighting, perspective, and style</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="image3">
+                    <img src="images-task-2_2/Capture8.PNG" alt="">
+                </div>
+            </div>
+            
+            <div class="gallery3_2">
+                <div class="image3_2">
+                    <img src="images-task-2_2/Capture9.PNG" alt="">
+                </div>
+                <div class="info3_2">
+                    <p>14.01.2019</p>
+                    <h1>A step-by-step guide to designing a real estate app</h1>
+                    <p style="margin-bottom: 30px;">Research usability testing found that our App for Agents was not meeting the needs of Real Estate Agents around effeciency and speed. We were challenged to re design the app to address these issues</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div> 
+        </div>
+        <div class="view" style="margin: auto; text-align: center; margin-top: 100px;">
+            <a href="#">View all Articles</a>
+        </div>
+    </div>
+       
+
+
+
+    <div class="container-fluid" id="section4">
+        <div class="main4">
+            <p>Contact <span>_____</span></p>
+            <h2>Work Enquiry</h2>
+            <h1>Wanna talk about your next big project?</h1>
+            
+     
+            <style>
+                :root {
+                    --time: 1500ms;
+               }
+                * {
+                    box-sizing: border-box;
+                    margin: 0;
+                    padding: 0;
+               }
+                *:focus {
+                    outline: none;
+               }
+                *::-webkit-input-placeholder {
+                    color: #222;
+               }
+                *::-moz-placeholder {
+                   /* Firefox 19+ */
+                    color: #222;
+               }
+                
+                .app {
+                    width: 960px;
+                    height: 650px;
+                    position: relative;
+                    display: flex;
+                    justify-content: flex-end;
+                    background: #fff;
+                    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+                    overflow: hidden;
+                    margin: 20px;
+                    background-image: radial-gradient(73% 147%, #eadfdf 59%, #ece2df 100%), radial-gradient(91% 146%, rgba(255, 255, 255, 0.5) 47%, rgba(0, 0, 0, 0.5) 100%);
+                    transform: scale(0.9);
+               }
+                .app::before, .app::after {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 400px;
+                    height: 800px;
+                    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+                    opacity: 0.6;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    animation: slide-in var(--time) cubic-bezier(0.19, 1, 0.22, 1) both;
+               }
+                .app::before {
+                    z-index: 2;
+                    left: -100px;
+                    top: -50px;
+               }
+                .app::after {
+                    z-index: 0;
+                    left: -200px;
+                    top: -150px;
+                    animation-delay: 200ms;
+               }
+                @keyframes slide-in {
+                    0% {
+                        opacity: 0;
+                        transform: translateX(-100%);
+                   }
+                    100% {
+                        opacity: 0.6;
+                        transform: translateX(0%) rotate(-15deg);
+                   }
+               }
+                form.form {
+                    position: relative;
+                    width: 600px;
+                    height: 100%;
+                    display: grid;
+                    grid-template-rows: 100px 1fr;
+                    padding: 10px 20px;
+                    z-index: 10;
+                    animation: slide-up var(--time) cubic-bezier(0.19, 1, 0.22, 1) both;
+                    opacity: 0;
+                    animation-delay: 200ms;
+               }
+                form.form h1.app-info {
+                    font-weight: 800;
+                    font-size: 2rem;
+                    margin: 25px 0;
+                    color: rgba(0, 0, 0, 0.8);
+                    animation: slide-up var(--time) cubic-bezier(0.19, 1, 0.22, 1) both;
+                    animation-delay: 400ms;
+               }
+                form.form .user_field {
+                    padding-top: 30px;
+               }
+                form.form .user_field .row {
+                    position: relative;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    margin-bottom: 40px;
+                    color: rgba(0, 0, 0, 0.8);
+                    animation: slide-up var(--time) cubic-bezier(0.19, 1, 0.22, 1) both;
+                    animation-delay: calc(400ms + (200ms * (var(--index))));
+               }
+                form.form .user_field .row .textfield {
+                    position: relative;
+               }
+                form.form .user_field .row .textfield input {
+                    width: 240px;
+                    background: none;
+                    color: #000;
+                    border: none;
+                    border-bottom: 2px solid #222;
+                    padding: 5px;
+                    letter-spacing: 1px;
+               }
+                form.form .user_field .row .textfield input[type="number"] {
+                    -moz-appearance: textfield;
+               }
+                form.form .user_field .row .textfield input[type="number"]::-webkit-inner-spin-button, form.form .user_field .row .textfield input[type="number"]::-webkit-outer-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0;
+               }
+                form.form .user_field .row .textfield input:not(:valid) {
+                    border-bottom: 2px solid #cc2e2e;
+               }
+                form.form .user_field .row .textfield input:focus ~ .fieldinfo {
+                    font-size: 12px;
+                    top: -12%;
+                    color: #27ae60;
+               }
+                form.form .user_field .row .textfield input.hasvalue ~ .fieldinfo {
+                    font-size: 12px;
+                    top: -12%;
+                    color: #27ae60;
+               }
+                form.form .user_field .row .textfield .fieldinfo {
+                    position: absolute;
+                    left: 5px;
+                    top: 48%;
+                    transform: translateY(-50%);
+                    pointer-events: none;
+                    font-weight: 800;
+                    font-size: 14px;
+                    transition: all 200ms ease;
+                    color: rgba(0, 0, 0, 0.8);
+               }
+                form.form .user_field .row._4 {
+                    height: 60px;
+                    display: flex;
+                    justify-content: flex-end;
+               }
+                form.form .user_field .row._4 .btn.submit {
+                    height: 100%;
+                    width: 180px;
+                    border-radius: 40px;
+                    background: #2ecc71;
+                    border: none;
+                    color: #fff;
+                    font-size: 18px;
+                    cursor: pointer;
+                    box-shadow: 0 4px 10px rgba(46, 204, 113, 0.2);
+                    margin: 0 50px;
+               }
+                form.form .user_field .row._3 {
+                    height: 150px;
+               }
+                form.form .user_field .row._3 .textfield {
+                    background: rgba(0, 0, 0, 0.1);
+                    border-top-left-radius: 5px;
+                    border-top-right-radius: 5px;
+                    width: calc(200% - 18%);
+                    height: 100%;
+               }
+                form.form .user_field .row._3 .textfield textarea {
+                    width: 100%;
+                    height: 100%;
+                    padding: 10px;
+                    position: absolute;
+                    resize: none;
+                    background: none;
+                    color: #000;
+                    border: none;
+                    border-bottom: 2px solid #222;
+               }
+                @keyframes slide-up {
+                    0% {
+                        opacity: 0;
+                        transform: translateY(100%);
+                   }
+                    100% {
+                        opacity: 1;
+                        transform: translateY(0%);
+                   }
+               }
+                @media only screen and (max-width: 650px) {
+                    .app {
+                        width: 100%;
+                        height: auto;
+                        
+                        left: 0;
+                        top: 10%;
+                        transfrom: translateY(0%);
+                        margin: 0 20px;
+                   }
+               }
+               .support {
+                position: absolute;
+                 right: 5px;
+                 bottom: 5px;
+                 padding: 5px;
+                 display: flex;
+            }
+                a {
+                    margin: 0 10px;
+                    color: #fff;
+                    font-size: 1rem;
+                    transition: all 400ms ease;
+               }
+                a:hover {
+                    color: #222;
+               }
+                
+            </style>    
+            
+                <div class="app" style="height: auto; width:100%;">
+                    <form class="form">
+                        <h1 class="app-info">Contact Us</h1>
+                        <div class="user_field">
+                            <div class="row _1" style="--index: 0">
+                                <div class="textfield">
+                                    <input type="text" class="text-input">
+                                    <span class="fieldinfo">Name</span>
+                                </div>
+                                <div class="textfield">
+                                    <input type="email" class="text-input">
+                                    <span class="fieldinfo">Email</span>
+                                </div>
+                            </div>
+                            <div class="row _2" style="--index: 1">
+                                <div class="textfield">
+                                    <input type="number" class="text-input">
+                                    <span class="fieldinfo">Phone</span>
+                                </div>
+                                <div class="textfield">
+                                    <input type="text" class="text-input">
+                                    <span class="fieldinfo">project name</span>
+                                </div>
+                            </div>
+                            <div class="row _3" style="--index: 2">
+                                <div class="textfield">
+                                    <textarea class="text-input" placeholder="Type your message here."></textarea>
+                                </div>
+                            </div>
+                            <div class="row _4" style="--index: 3">
+                                <button class="submit btn">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                
+                
+               
+                
+                </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
